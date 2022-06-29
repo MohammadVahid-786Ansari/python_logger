@@ -1,0 +1,19 @@
+2022-06-29 21:45:37,938:DEBUG:root:Debug message
+2022-06-29 21:45:37,939:INFO:root:Info message
+2022-06-29 21:45:37,939:WARNING:root:Warning message
+2022-06-29 21:45:37,939:ERROR:root:Error message
+2022-06-29 21:45:37,939:CRITICAL:root:Critical message
+220629:DEBUG:root:Debug message
+220629:INFO:root:Info message
+220629:WARNING:root:Warning message
+220629:ERROR:root:Error message
+220629:CRITICAL:root:Critical message
+2229:DEBUG:root:Debug message
+2229:INFO:root:Info message
+2229:WARNING:root:Warning message
+2229:ERROR:root:Error message
+2229:CRITICAL:root:Critical message
+2230:INFO:root:Info message
+2230:WARNING:root:Warning message
+2230:ERROR:root:Error message
+2230:CRITICAL:root:Critical message
