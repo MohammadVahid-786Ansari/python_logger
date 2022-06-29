@@ -1,6 +1,8 @@
 import logging
+import colorama
 import car_class
-
+from colorama import Fore, Back, Style
+colorama.init(autoreset=True)
 # logging.basicConfig(filename = 'calc.log', level = logging.DEBUG ,
 #                     format = '%(asctime)s:%(name)s:%(message)s',
 #                     )
@@ -34,13 +36,13 @@ num_1 = 10
 num_2 = 2
 
 add_result = add(num_1, num_2)
-logger.debug('Add: {} + {} = {}'.format(num_1, num_2, add_result))
+logger.debug(Fore.BLUE+'Add: {} + {} = {}'.format(num_1, num_2, add_result))
 
 sub_result = subtract(num_1, num_2)
 logger.debug('Sub: {} - {} = {}'.format(num_1, num_2, sub_result))
 
 mul_result = multiply(num_1, num_2)
-logger.debug('Mul: {} * {} = {}'.format(num_1, num_2, mul_result))
+logger.debug(Fore.RED+Back.YELLOW+'Mul: {} * {} = {}'.format(num_1, num_2, mul_result))
 
 div_result = divide(num_1, num_2)
 logger.debug('Div: {} / {} = {}'.format(num_1, num_2, div_result))
