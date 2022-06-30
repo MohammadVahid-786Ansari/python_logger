@@ -3,7 +3,7 @@ import colorama
 import car_class
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
-# logging.basicConfig(filename = 'calc.log', level = logging.DEBUG ,
+# logging.basicConfig(filename = 'calc.log', level = logging.DEBUG , datefmt = '%m/%d/%Y %I:%M:%S %p',
 #                     format = '%(asctime)s:%(name)s:%(message)s',
 #                     )
 
